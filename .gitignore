@@ -1,0 +1,10 @@
+.project
+*.hko
+*.fbx
+*.7z
+*.xcf
+*.png
+*.svg
+*.blend1
+_Backup/
+/thumb*.*

@@ -1,0 +1,53 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Blast Door Blocks</DisplayName>
+      <Name>Blastdoorblocks</Name>
+      <ItemIds>
+        <string>LargeBlastDoorWingRightInner</string>
+        <string>SmallBlastDoorWingRightInner</string>
+        <string>LargeBlastDoorWingRight0</string>
+        <string>SmallBlastDoorWingRight0</string>
+        <string>LargeBlastDoorWingRight26a</string>
+        <string>SmallBlastDoorWingRight26a</string>
+        <string>LargeBlastDoorWingRight26b</string>
+        <string>SmallBlastDoorWingRight26b</string>
+        <string>LargeBlastDoorWingRight45a</string>
+        <string>SmallBlastDoorWingRight45a</string>
+        <string>LargeBlastDoorWingRight45b</string>
+        <string>SmallBlastDoorWingRight45b</string>
+        <string>LargeBlastDoorWingRight64a</string>
+        <string>SmallBlastDoorWingRight64a</string>
+        <string>LargeBlastDoorWingRight64b</string>
+        <string>SmallBlastDoorWingRight64b</string>
+        <string>LargeBlastDoorWingLeftInner</string>
+        <string>SmallBlastDoorWingLeftInner</string>
+        <string>LargeBlastDoorWingLeft0</string>
+        <string>SmallBlastDoorWingLeft0</string>
+        <string>LargeBlastDoorWingLeft26a</string>
+        <string>SmallBlastDoorWingLeft26a</string>
+        <string>LargeBlastDoorWingLeft26b</string>
+        <string>SmallBlastDoorWingLeft26b</string>
+        <string>LargeBlastDoorWingLeft45a</string>
+        <string>SmallBlastDoorWingLeft45a</string>
+        <string>LargeBlastDoorWingLeft45b</string>
+        <string>SmallBlastDoorWingLeft45b</string>
+        <string>LargeBlastDoorWingLeft64a</string>
+        <string>SmallBlastDoorWingLeft64a</string>
+        <string>LargeBlastDoorWingLeft64b</string>
+        <string>SmallBlastDoorWingLeft64b</string>
+		<string>LargeBlastDoorTipLongLong</string>
+        <string>SmallBlastDoorTipLongLong</string>
+        <string>LargeBlastDoorTipStraightLong</string>
+        <string>SmallBlastDoorTipStraightLong</string>
+        <string>LargeBlastDoorTipStraightShort</string>
+        <string>SmallBlastDoorTipStraightShort</string>
+	  </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>
