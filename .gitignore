@@ -8,3 +8,7 @@
 *.blend1
 _Backup/
 /thumb*.*
+/Models/*.xml
+/Models/*.mwm
+/Models/*.hkt
+

@@ -1,1274 +1,1401 @@
-<?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<CubeBlocks>
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions>
+	<CubeBlocks>
 
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingRightInner</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right, inner</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRightInner.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingRightInner.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
+				<MountPoint Side="Front" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.60" EndX="1.50" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.10" EndX="1.50" EndY="0.90" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRightInner</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingLeftInner</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingRightInner</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right, inner</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_Inner.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="1"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Right_Inner.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="1" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="0" StartY="0.1" EndX="1" EndY="0.9"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="0.3" EndY="0.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-        <MountPoint Side="Front" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Front" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Front" StartX="0.7" StartY="0.1" EndX="1" EndY="0.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRightInner</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingRightInner</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right, inner</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRightInner.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingRightInner.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
+				<MountPoint Side="Front" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.60" EndX="1.50" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.10" EndX="1.50" EndY="0.90" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRightInner</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingLeftInner</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingRightInner</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right, inner</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_Inner.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="1"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Right_Inner.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="1" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="0" StartY="0.1" EndX="1" EndY="0.9"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="0.3" EndY="0.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-        <MountPoint Side="Front" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Front" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Front" StartX="0.7" StartY="0.1" EndX="1" EndY="0.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRightInner</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingRight0</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRight0.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingRight0.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.30" EndX="0.80" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.60" EndX="1.20" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.10" EndX="1.50" EndY="0.90" />
+				<MountPoint Side="Right" StartX="1.20" StartY="0.80" EndX="1.50" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRight0</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingLeft0</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingRight0</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_0.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="1"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Right_0.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="0.7" EndY="1.4"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="0.8" EndX="1" EndY="1.2"/>
-        <MountPoint Side="Left" StartX="0.3" StartY="0.1" EndX="1" EndY="0.9"/>
-        <MountPoint Side="Left" StartX="0" StartY="0.3" EndX="0.3" EndY="0.7"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="0.3" EndY="0.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRight0</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingRight0</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRight0.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingRight0.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.30" EndX="0.80" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.60" EndX="1.20" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.10" EndX="1.50" EndY="0.90" />
+				<MountPoint Side="Right" StartX="1.20" StartY="0.80" EndX="1.50" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRight0</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingLeft0</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingRight0</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_0.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="1"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Right_0.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="0.7" EndY="1.4"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="0.8" EndX="1" EndY="1.2"/>
-        <MountPoint Side="Left" StartX="0.3" StartY="0.1" EndX="1" EndY="0.9"/>
-        <MountPoint Side="Left" StartX="0" StartY="0.3" EndX="0.3" EndY="0.7"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="0.3" EndY="0.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRight0</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingRight26a</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRight26a.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingRight26a.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Left" StartX="1.00" StartY="0.30" EndX="1.30" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="1.20" EndY="1.40" />
+				<MountPoint Side="Left" StartX="1.30" StartY="0.10" EndX="2.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="1.20" StartY="0.80" EndX="1.50" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRight26a</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingLeft26a</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingRight26a</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_26a.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="2"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Right_26a.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="1.2" EndY="1.4"/>
-        <MountPoint Side="Right" StartX="1.2" StartY="0.8" EndX="1.5" EndY="1.2"/>
-        <MountPoint Side="Left" StartX="1.3" StartY="0.1" EndX="2" EndY="0.9"/>
-        <MountPoint Side="Left" StartX="1" StartY="0.3" EndX="1.3" EndY="0.7"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="0.3" EndY="0.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRight26a</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingRight26a</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRight26a.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingRight26a.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Left" StartX="1.00" StartY="0.30" EndX="1.30" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="1.20" EndY="1.40" />
+				<MountPoint Side="Left" StartX="1.30" StartY="0.10" EndX="2.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="1.20" StartY="0.80" EndX="1.50" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRight26a</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingLeft26a</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingRight26a</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_26a.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="2"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Right_26a.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="1.2" EndY="1.4"/>
-        <MountPoint Side="Right" StartX="1.2" StartY="0.8" EndX="1.5" EndY="1.2"/>
-        <MountPoint Side="Left" StartX="1.3" StartY="0.1" EndX="2" EndY="0.9"/>
-        <MountPoint Side="Left" StartX="1" StartY="0.3" EndX="1.3" EndY="0.7"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="0.3" EndY="0.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRight26a</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingRight26b</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRight26b.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingRight26b.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.70" StartY="1.10" EndX="1.00" EndY="1.80" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.70" EndX="0.30" EndY="1.40" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
+				<MountPoint Side="Left" StartX="1.00" StartY="0.80" EndX="1.30" EndY="1.20" />
+				<MountPoint Side="Right" StartX="0.50" StartY="1.10" EndX="1.20" EndY="1.90" />
+				<MountPoint Side="Left" StartX="1.30" StartY="0.60" EndX="1.50" EndY="1.40" />
+				<MountPoint Side="Right" StartX="1.20" StartY="1.30" EndX="1.50" EndY="1.70" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRight26b</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingLeft26b</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingRight26b</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_26b.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="1"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Right_26b.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="1.1" EndX="0.7" EndY="1.9"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="1.3" EndX="1" EndY="1.7"/>
-        <MountPoint Side="Left" StartX="0.8" StartY="0.6" EndX="1" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="0.5" StartY="0.8" EndX="0.8" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.8" EndX="0.7" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="1.1" EndX="1" EndY="1.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRight26b</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingRight26b</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRight26b.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingRight26b.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.70" StartY="1.10" EndX="1.00" EndY="1.80" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.70" EndX="0.30" EndY="1.40" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
+				<MountPoint Side="Left" StartX="1.00" StartY="0.80" EndX="1.30" EndY="1.20" />
+				<MountPoint Side="Right" StartX="0.50" StartY="1.10" EndX="1.20" EndY="1.90" />
+				<MountPoint Side="Left" StartX="1.30" StartY="0.60" EndX="1.50" EndY="1.40" />
+				<MountPoint Side="Right" StartX="1.20" StartY="1.30" EndX="1.50" EndY="1.70" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRight26b</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingLeft26b</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingRight26b</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_26b.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="1"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Right_26b.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="1.1" EndX="0.7" EndY="1.9"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="1.3" EndX="1" EndY="1.7"/>
-        <MountPoint Side="Left" StartX="0.8" StartY="0.6" EndX="1" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="0.5" StartY="0.8" EndX="0.8" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.8" EndX="0.7" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="1.1" EndX="1" EndY="1.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRight26b</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingRight45a</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRight45a.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingRight45a.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Left" StartX="1.00" StartY="0.30" EndX="1.30" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="1.70" EndY="1.40" />
+				<MountPoint Side="Left" StartX="1.30" StartY="0.10" EndX="2.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="1.70" StartY="0.80" EndX="2.00" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRight45a</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingLeft45a</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingRight45a</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_45a.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="2"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Right_45a.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="1.7" EndY="1.4"/>
-        <MountPoint Side="Right" StartX="1.7" StartY="0.8" EndX="2" EndY="1.2"/>
-        <MountPoint Side="Left" StartX="1.3" StartY="0.1" EndX="2" EndY="0.9"/>
-        <MountPoint Side="Left" StartX="1" StartY="0.3" EndX="1.3" EndY="0.7"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="0.3" EndY="0.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRight45a</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingRight45a</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRight45a.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingRight45a.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Left" StartX="1.00" StartY="0.30" EndX="1.30" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="1.70" EndY="1.40" />
+				<MountPoint Side="Left" StartX="1.30" StartY="0.10" EndX="2.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="1.70" StartY="0.80" EndX="2.00" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRight45a</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingLeft45a</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingRight45a</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_45a.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="2"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Right_45a.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="1.7" EndY="1.4"/>
-        <MountPoint Side="Right" StartX="1.7" StartY="0.8" EndX="2" EndY="1.2"/>
-        <MountPoint Side="Left" StartX="1.3" StartY="0.1" EndX="2" EndY="0.9"/>
-        <MountPoint Side="Left" StartX="1" StartY="0.3" EndX="1.3" EndY="0.7"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="0.3" EndY="0.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRight45a</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingRight45b</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRight45b.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingRight45b.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.70" StartY="1.10" EndX="1.00" EndY="1.80" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.70" EndX="0.30" EndY="1.40" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
+				<MountPoint Side="Left" StartX="1.00" StartY="0.80" EndX="1.30" EndY="1.20" />
+				<MountPoint Side="Right" StartX="0.00" StartY="1.10" EndX="1.70" EndY="1.90" />
+				<MountPoint Side="Left" StartX="1.30" StartY="0.60" EndX="2.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="1.70" StartY="1.30" EndX="2.00" EndY="1.70" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRight45b</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingLeft45b</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingRight45b</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_45b.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="2"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Right_45b.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="1.1" EndX="1.7" EndY="1.9"/>
-        <MountPoint Side="Right" StartX="1.7" StartY="1.3" EndX="2" EndY="1.7"/>
-        <MountPoint Side="Left" StartX="1.3" StartY="0.6" EndX="2" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="1" StartY="0.8" EndX="1.3" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.8" EndX="0.7" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="1.1" EndX="1" EndY="1.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRight45b</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingRight45b</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRight45b.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingRight45b.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.70" StartY="1.10" EndX="1.00" EndY="1.80" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.70" EndX="0.30" EndY="1.40" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
+				<MountPoint Side="Left" StartX="1.00" StartY="0.80" EndX="1.30" EndY="1.20" />
+				<MountPoint Side="Right" StartX="0.00" StartY="1.10" EndX="1.70" EndY="1.90" />
+				<MountPoint Side="Left" StartX="1.30" StartY="0.60" EndX="2.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="1.70" StartY="1.30" EndX="2.00" EndY="1.70" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRight45b</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingLeft45b</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingRight45b</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_45b.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="2"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Right_45b.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="1.1" EndX="1.7" EndY="1.9"/>
-        <MountPoint Side="Right" StartX="1.7" StartY="1.3" EndX="2" EndY="1.7"/>
-        <MountPoint Side="Left" StartX="1.3" StartY="0.6" EndX="2" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="1" StartY="0.8" EndX="1.3" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.8" EndX="0.7" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="1.1" EndX="1" EndY="1.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRight45b</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingRight64a</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRight64a.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingRight64a.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Left" StartX="1.50" StartY="0.30" EndX="1.80" EndY="0.70" />
+				<MountPoint Side="Right" StartX="-0.50" StartY="0.60" EndX="2.20" EndY="1.40" />
+				<MountPoint Side="Left" StartX="1.80" StartY="0.10" EndX="2.50" EndY="0.90" />
+				<MountPoint Side="Right" StartX="2.20" StartY="0.80" EndX="2.50" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRight64a</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingLeft64a</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingRight64a</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_64a.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="3"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Right_64a.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="2.7" EndY="1.4"/>
-        <MountPoint Side="Right" StartX="2.7" StartY="0.8" EndX="3" EndY="1.2"/>
-        <MountPoint Side="Left" StartX="2.3" StartY="0.1" EndX="3" EndY="0.9"/>
-        <MountPoint Side="Left" StartX="2" StartY="0.3" EndX="2.3" EndY="0.7"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="0.3" EndY="0.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRight64a</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingRight64a</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRight64a.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingRight64a.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Left" StartX="1.50" StartY="0.30" EndX="1.80" EndY="0.70" />
+				<MountPoint Side="Right" StartX="-0.50" StartY="0.60" EndX="2.20" EndY="1.40" />
+				<MountPoint Side="Left" StartX="1.80" StartY="0.10" EndX="2.50" EndY="0.90" />
+				<MountPoint Side="Right" StartX="2.20" StartY="0.80" EndX="2.50" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRight64a</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingLeft64a</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingRight64a</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_64a.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="3"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Right_64a.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="2.7" EndY="1.4"/>
-        <MountPoint Side="Right" StartX="2.7" StartY="0.8" EndX="3" EndY="1.2"/>
-        <MountPoint Side="Left" StartX="2.3" StartY="0.1" EndX="3" EndY="0.9"/>
-        <MountPoint Side="Left" StartX="2" StartY="0.3" EndX="2.3" EndY="0.7"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="0.3" EndY="0.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRight64a</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingRight64b</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRight64b.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingRight64b.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.70" StartY="1.10" EndX="1.00" EndY="1.80" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.70" EndX="0.30" EndY="1.40" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
+				<MountPoint Side="Left" StartX="1.50" StartY="0.80" EndX="1.80" EndY="1.20" />
+				<MountPoint Side="Right" StartX="-0.50" StartY="1.10" EndX="2.20" EndY="1.90" />
+				<MountPoint Side="Left" StartX="1.80" StartY="0.60" EndX="2.50" EndY="1.40" />
+				<MountPoint Side="Right" StartX="2.20" StartY="1.30" EndX="2.50" EndY="1.70" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRight64b</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingLeft64b</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingRight64b</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_64b.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="3"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Right_64b.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="1.1" EndX="2.7" EndY="1.9"/>
-        <MountPoint Side="Right" StartX="2.7" StartY="1.3" EndX="3" EndY="1.7"/>
-        <MountPoint Side="Left" StartX="2.3" StartY="0.6" EndX="3" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="2" StartY="0.8" EndX="2.3" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.8" EndX="0.7" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="1.1" EndX="1" EndY="1.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRight64b</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingRight64b</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, right</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingRight64b.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingRight64b.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.70" StartY="1.10" EndX="1.00" EndY="1.80" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.70" EndX="0.30" EndY="1.40" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
+				<MountPoint Side="Left" StartX="1.50" StartY="0.80" EndX="1.80" EndY="1.20" />
+				<MountPoint Side="Right" StartX="-0.50" StartY="1.10" EndX="2.20" EndY="1.90" />
+				<MountPoint Side="Left" StartX="1.80" StartY="0.60" EndX="2.50" EndY="1.40" />
+				<MountPoint Side="Right" StartX="2.20" StartY="1.30" EndX="2.50" EndY="1.70" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingRight64b</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingLeft64b</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingRight64b</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, right</DisplayName>
-    <Icon>Blocks\Icons\Wing_Right_64b.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="3"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Right_64b.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="1.1" EndX="2.7" EndY="1.9"/>
-        <MountPoint Side="Right" StartX="2.7" StartY="1.3" EndX="3" EndY="1.7"/>
-        <MountPoint Side="Left" StartX="2.3" StartY="0.6" EndX="3" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="2" StartY="0.8" EndX="2.3" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.8" EndX="0.7" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="1.1" EndX="1" EndY="1.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingRight64b</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingLeftInner</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left, inner</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeftInner.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingLeftInner.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Front" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
+				<MountPoint Side="Front" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.60" EndX="1.50" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.10" EndX="1.50" EndY="0.90" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeftInner</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingRightInner</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingLeftInner</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left, inner</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_Inner.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="1"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Left_Inner.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.1" EndX="1" EndY="0.9"/>
-        <MountPoint Side="Left" StartX="0" StartY="0.6" EndX="1" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.1" EndX="1" EndY="0.9"/>
-        <MountPoint Side="Front" StartX="0" StartY="0.1" EndX="0.3" EndY="0.9"/>
-        <MountPoint Side="Front" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Front" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeftInner</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingLeftInner</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left, inner</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeftInner.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingLeftInner.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Front" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
+				<MountPoint Side="Front" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.60" EndX="1.50" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.10" EndX="1.50" EndY="0.90" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeftInner</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingRightInner</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingLeftInner</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left, inner</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_Inner.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="1"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Left_Inner.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.1" EndX="1" EndY="0.9"/>
-        <MountPoint Side="Left" StartX="0" StartY="0.6" EndX="1" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.1" EndX="1" EndY="0.9"/>
-        <MountPoint Side="Front" StartX="0" StartY="0.1" EndX="0.3" EndY="0.9"/>
-        <MountPoint Side="Front" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Front" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeftInner</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingLeft0</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeft0.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingLeft0.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Right" StartX="1.20" StartY="0.30" EndX="1.50" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.60" EndX="1.50" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.10" EndX="1.20" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.80" EndX="0.80" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeft0</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingRight0</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingLeft0</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_0.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="1"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Left_0.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.1" EndX="0.7" EndY="0.9"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="0.3" EndX="1" EndY="0.7"/>
-        <MountPoint Side="Left" StartX="0.3" StartY="0.6" EndX="1" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="0" StartY="0.8" EndX="0.3" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.1" EndX="1" EndY="0.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeft0</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingLeft0</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeft0.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingLeft0.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Right" StartX="1.20" StartY="0.30" EndX="1.50" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.60" EndX="1.50" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.10" EndX="1.20" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.80" EndX="0.80" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeft0</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingRight0</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingLeft0</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_0.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="1"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Left_0.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.1" EndX="0.7" EndY="0.9"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="0.3" EndX="1" EndY="0.7"/>
-        <MountPoint Side="Left" StartX="0.3" StartY="0.6" EndX="1" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="0" StartY="0.8" EndX="0.3" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.1" EndX="1" EndY="0.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeft0</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingLeft26a</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeft26a.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingLeft26a.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.30" EndX="1.00" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.60" EndX="2.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.80" EndX="0.80" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeft26a</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingRight26a</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingLeft26a</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_26a.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="2"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Left_26a.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.1" EndX="0.7" EndY="0.9"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="0.3" EndX="1" EndY="0.7"/>
-        <MountPoint Side="Left" StartX="0.8" StartY="0.6" EndX="2" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="0.5" StartY="0.8" EndX="0.8" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.1" EndX="1" EndY="0.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeft26a</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingLeft26a</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeft26a.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingLeft26a.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.30" EndX="1.00" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.60" EndX="2.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.80" EndX="0.80" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeft26a</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingRight26a</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingLeft26a</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_26a.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="2"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Left_26a.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.1" EndX="0.7" EndY="0.9"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="0.3" EndX="1" EndY="0.7"/>
-        <MountPoint Side="Left" StartX="0.8" StartY="0.6" EndX="2" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="0.5" StartY="0.8" EndX="0.8" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.1" EndX="1" EndY="0.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeft26a</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingLeft26b</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeft26b.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingLeft26b.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="1.10" EndX="0.30" EndY="1.80" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.70" EndX="1.00" EndY="1.40" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.80" EndX="1.00" EndY="1.20" />
+				<MountPoint Side="Left" StartX="0.80" StartY="1.10" EndX="1.50" EndY="1.90" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.60" EndX="0.70" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.50" StartY="1.30" EndX="0.80" EndY="1.70" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeft26b</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingRight26b</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingLeft26b</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_26b.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="1"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Left_26b.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="0.2" EndY="1.4"/>
-        <MountPoint Side="Right" StartX="0.2" StartY="0.8" EndX="0.5" EndY="1.2"/>
-        <MountPoint Side="Left" StartX="0.3" StartY="1.1" EndX="1" EndY="1.9"/>
-        <MountPoint Side="Left" StartX="0" StartY="1.3" EndX="0.3" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0" StartY="1.1" EndX="0.3" EndY="1.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.8" EndX="0.7" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeft26b</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingLeft26b</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeft26b.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingLeft26b.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="1.10" EndX="0.30" EndY="1.80" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.70" EndX="1.00" EndY="1.40" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.80" EndX="1.00" EndY="1.20" />
+				<MountPoint Side="Left" StartX="0.80" StartY="1.10" EndX="1.50" EndY="1.90" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.60" EndX="0.70" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.50" StartY="1.30" EndX="0.80" EndY="1.70" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeft26b</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingRight26b</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingLeft26b</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_26b.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="1"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Left_26b.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="0.2" EndY="1.4"/>
-        <MountPoint Side="Right" StartX="0.2" StartY="0.8" EndX="0.5" EndY="1.2"/>
-        <MountPoint Side="Left" StartX="0.3" StartY="1.1" EndX="1" EndY="1.9"/>
-        <MountPoint Side="Left" StartX="0" StartY="1.3" EndX="0.3" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0" StartY="1.1" EndX="0.3" EndY="1.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.8" EndX="0.7" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeft26b</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingLeft45a</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeft45a.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingLeft45a.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.30" EndX="1.00" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.60" EndX="2.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.80" EndX="0.30" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeft45a</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingRight45a</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingLeft45a</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_45a.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="2"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Left_45a.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.1" EndX="0.7" EndY="0.9"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="0.3" EndX="1" EndY="0.7"/>
-        <MountPoint Side="Left" StartX="0.3" StartY="0.6" EndX="2" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="0" StartY="0.8" EndX="0.3" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.1" EndX="1" EndY="0.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeft45a</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingLeft45a</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeft45a.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingLeft45a.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.30" EndX="1.00" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.60" EndX="2.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.80" EndX="0.30" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeft45a</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingRight45a</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingLeft45a</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_45a.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="2"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Left_45a.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.1" EndX="0.7" EndY="0.9"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="0.3" EndX="1" EndY="0.7"/>
-        <MountPoint Side="Left" StartX="0.3" StartY="0.6" EndX="2" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="0" StartY="0.8" EndX="0.3" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.1" EndX="1" EndY="0.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeft45a</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingLeft45b</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeft45b.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingLeft45b.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="1.10" EndX="0.30" EndY="1.80" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.70" EndX="1.00" EndY="1.40" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.80" EndX="1.00" EndY="1.20" />
+				<MountPoint Side="Left" StartX="0.30" StartY="1.10" EndX="2.00" EndY="1.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="0.70" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.00" StartY="1.30" EndX="0.30" EndY="1.70" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeft45b</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingRight45b</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingLeft45b</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_45b.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="2"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Left_45b.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="0.7" EndY="1.4"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="0.8" EndX="1" EndY="1.2"/>
-        <MountPoint Side="Left" StartX="0.3" StartY="1.1" EndX="2" EndY="1.9"/>
-        <MountPoint Side="Left" StartX="0" StartY="1.3" EndX="0.3" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0" StartY="1.1" EndX="0.3" EndY="1.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.8" EndX="0.7" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeft45b</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingLeft45b</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeft45b.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingLeft45b.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="1.10" EndX="0.30" EndY="1.80" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.70" EndX="1.00" EndY="1.40" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.80" EndX="1.00" EndY="1.20" />
+				<MountPoint Side="Left" StartX="0.30" StartY="1.10" EndX="2.00" EndY="1.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="0.70" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.00" StartY="1.30" EndX="0.30" EndY="1.70" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeft45b</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingRight45b</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingLeft45b</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_45b.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="2"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Left_45b.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="0.7" EndY="1.4"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="0.8" EndX="1" EndY="1.2"/>
-        <MountPoint Side="Left" StartX="0.3" StartY="1.1" EndX="2" EndY="1.9"/>
-        <MountPoint Side="Left" StartX="0" StartY="1.3" EndX="0.3" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0" StartY="1.1" EndX="0.3" EndY="1.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.8" EndX="0.7" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeft45b</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingLeft64a</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeft64a.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingLeft64a.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Right" StartX="0.20" StartY="0.30" EndX="0.50" EndY="0.70" />
+				<MountPoint Side="Left" StartX="-0.20" StartY="0.60" EndX="2.50" EndY="1.40" />
+				<MountPoint Side="Right" StartX="-0.50" StartY="0.10" EndX="0.20" EndY="0.90" />
+				<MountPoint Side="Left" StartX="-0.50" StartY="0.80" EndX="-0.20" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeft64a</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingRight64a</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingLeft64a</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_64a.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="3"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Left_64a.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.1" EndX="0.7" EndY="0.9"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="0.3" EndX="1" EndY="0.7"/>
-        <MountPoint Side="Left" StartX="0.3" StartY="0.6" EndX="3" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="-0" StartY="0.8" EndX="0.3" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.1" EndX="1" EndY="0.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeft64a</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingLeft64a</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeft64a.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingLeft64a.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
+				<MountPoint Side="Right" StartX="0.20" StartY="0.30" EndX="0.50" EndY="0.70" />
+				<MountPoint Side="Left" StartX="-0.20" StartY="0.60" EndX="2.50" EndY="1.40" />
+				<MountPoint Side="Right" StartX="-0.50" StartY="0.10" EndX="0.20" EndY="0.90" />
+				<MountPoint Side="Left" StartX="-0.50" StartY="0.80" EndX="-0.20" EndY="1.20" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeft64a</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingRight64a</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingLeft64a</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_64a.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="3"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Left_64a.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.1" EndX="0.7" EndY="0.9"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="0.3" EndX="1" EndY="0.7"/>
-        <MountPoint Side="Left" StartX="0.3" StartY="0.6" EndX="3" EndY="1.4"/>
-        <MountPoint Side="Left" StartX="-0" StartY="0.8" EndX="0.3" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0" StartY="0.6" EndX="0.3" EndY="1.4"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.3" EndX="0.7" EndY="1.2"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.1" EndX="1" EndY="0.9"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeft64a</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorWingLeft64b</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeft64b.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorWingLeft64b.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="1.10" EndX="0.30" EndY="1.80" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.70" EndX="1.00" EndY="1.40" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
+				<MountPoint Side="Right" StartX="0.20" StartY="0.80" EndX="0.50" EndY="1.20" />
+				<MountPoint Side="Left" StartX="-0.20" StartY="1.10" EndX="2.50" EndY="1.90" />
+				<MountPoint Side="Right" StartX="-0.50" StartY="0.60" EndX="0.20" EndY="1.40" />
+				<MountPoint Side="Left" StartX="-0.50" StartY="1.30" EndX="-0.20" EndY="1.70" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeft64b</BlockPairName>
+			<MirroringBlock>LargeBlastDoorWingRight64b</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorWingLeft64b</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_64b.dds</Icon>
-    <CubeSize>Large</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="3"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Large\Wing_Left_64b.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="125"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="0.7" EndY="1.4"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="0.8" EndX="1" EndY="1.2"/>
-        <MountPoint Side="Left" StartX="0.3" StartY="1.1" EndX="3" EndY="1.9"/>
-        <MountPoint Side="Left" StartX="-0" StartY="1.3" EndX="0.3" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0" StartY="1.1" EndX="0.3" EndY="1.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.8" EndX="0.7" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeft64b</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>20</BuildTimeSeconds>
-    <DisassembleRatio>3</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorWingLeft64b</SubtypeId>
+			</Id>
+			<DisplayName>Blast door wing, left</DisplayName>
+			<Icon>Textures\Icons\BlastDoorWingLeft64b.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorWingLeft64b.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="1.10" EndX="0.30" EndY="1.80" />
+				<MountPoint Side="Back" StartX="0.70" StartY="0.70" EndX="1.00" EndY="1.40" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
+				<MountPoint Side="Right" StartX="0.20" StartY="0.80" EndX="0.50" EndY="1.20" />
+				<MountPoint Side="Left" StartX="-0.20" StartY="1.10" EndX="2.50" EndY="1.90" />
+				<MountPoint Side="Right" StartX="-0.50" StartY="0.60" EndX="0.20" EndY="1.40" />
+				<MountPoint Side="Left" StartX="-0.50" StartY="1.30" EndX="-0.20" EndY="1.70" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorWingLeft64b</BlockPairName>
+			<MirroringBlock>SmallBlastDoorWingRight64b</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+		</Definition>
 
-<Definition>
-    <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorWingLeft64b</SubtypeId>
-    </Id>
-    <DisplayName>Blast door wing, left</DisplayName>
-    <Icon>Blocks\Icons\Wing_Left_64b.dds</Icon>
-    <CubeSize>Small</CubeSize>
-    <BlockTopology>TriangleMesh</BlockTopology>
-    <Size x="1" y="2" z="3"/>
-    <ModelOffset x="0" y="0" z="0"/>
-    <Model>Blocks\Small\Wing_Left_64b.mwm</Model>
-    <Components>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-    </Components>
-    <CriticalComponent Subtype="SteelPlate" Index="0"/>
-    <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0.6" EndX="0.7" EndY="1.4"/>
-        <MountPoint Side="Right" StartX="0.7" StartY="0.8" EndX="1" EndY="1.2"/>
-        <MountPoint Side="Left" StartX="0.3" StartY="1.1" EndX="3" EndY="1.9"/>
-        <MountPoint Side="Left" StartX="-0" StartY="1.3" EndX="0.3" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0" StartY="1.1" EndX="0.3" EndY="1.9"/>
-        <MountPoint Side="Back" StartX="0.3" StartY="0.8" EndX="0.7" EndY="1.7"/>
-        <MountPoint Side="Back" StartX="0.7" StartY="0.6" EndX="1" EndY="1.4"/>
-    </MountPoints>
-    <PhysicsOption>Convex</PhysicsOption>
-    <BlockPairName>BlastDoorWingLeft64b</BlockPairName>
-    <DeformationRatio>0</DeformationRatio>
-    <BuildTimeSeconds>3</BuildTimeSeconds>
-    <DisassembleRatio>2.5</DisassembleRatio>
-</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorTipLongLong</SubtypeId>
+			</Id>
+			<DisplayName>Blast door tip, long/long</DisplayName>
+			<Icon>Textures\Icons\TipLongLong.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="3" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Blocks\Large\Tip\Long_Long.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.3" StartY="0.0" EndX="0.7" EndY="0.4" />
+				<MountPoint Side="Back" StartX="0.2" StartY="0.4" EndX="0.8" EndY="0.7" />
+				<MountPoint Side="Back" StartX="0.1" StartY="0.7" EndX="0.9" EndY="1.6" />
+				<MountPoint Side="Back" StartX="0.25" StartY="1.6" EndX="0.75" EndY="2.0" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorTipLongLong</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.2</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<Public>true</Public>
+		</Definition>
 
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorTipLongLong</SubtypeId>
-      </Id>
-      <DisplayName>Blast door tip, long/long</DisplayName>
-      <Icon>Blocks\Icons\TipLongLong.dds</Icon>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="3" z="2" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Blocks\Large\Tip\Long_Long.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <Components>
-        <Component Subtype="SteelPlate" Count="125" />
-        <Component Subtype="SteelPlate" Count="25" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Back"  StartX="0.3"  StartY="0.0" EndX="0.7"  EndY="0.4" />
-        <MountPoint Side="Back"  StartX="0.2"  StartY="0.4" EndX="0.8"  EndY="0.7" />
-        <MountPoint Side="Back"  StartX="0.1"  StartY="0.7" EndX="0.9"  EndY="1.6" />
-        <MountPoint Side="Back"  StartX="0.25" StartY="1.6" EndX="0.75" EndY="2.0" />
-      </MountPoints>
-      <PhysicsOption>Convex</PhysicsOption>
-      <BlockPairName>BlastDoorTipLongLong</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <DeformationRatio>0.2</DeformationRatio>
-      <EdgeType>Heavy</EdgeType>
-      <BuildTimeSeconds>24</BuildTimeSeconds>
-      <DisassembleRatio>3</DisassembleRatio>
-      <Public>true</Public>
-    </Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorTipLongLong</SubtypeId>
+			</Id>
+			<DisplayName>Blast door tip, long/long</DisplayName>
+			<Icon>Textures\Icons\TipLongLong.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="3" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Blocks\Small\Tip\Long_Long.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.3" StartY="0.0" EndX="0.7" EndY="0.4" />
+				<MountPoint Side="Back" StartX="0.2" StartY="0.4" EndX="0.8" EndY="0.7" />
+				<MountPoint Side="Back" StartX="0.1" StartY="0.7" EndX="0.9" EndY="1.6" />
+				<MountPoint Side="Back" StartX="0.25" StartY="1.6" EndX="0.75" EndY="2.0" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorTipLongLong</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.24</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
 
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorTipLongLong</SubtypeId>
-      </Id>
-      <DisplayName>Blast door tip, long/long</DisplayName>
-      <Icon>Blocks\Icons\TipLongLong.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="3" z="2" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Blocks\Small\Tip\Long_Long.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <Components>
-        <Component Subtype="SteelPlate" Count="4" />
-        <Component Subtype="SteelPlate" Count="2" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Back"  StartX="0.3"  StartY="0.0" EndX="0.7"  EndY="0.4" />
-        <MountPoint Side="Back"  StartX="0.2"  StartY="0.4" EndX="0.8"  EndY="0.7" />
-        <MountPoint Side="Back"  StartX="0.1"  StartY="0.7" EndX="0.9"  EndY="1.6" />
-        <MountPoint Side="Back"  StartX="0.25" StartY="1.6" EndX="0.75" EndY="2.0" />
-      </MountPoints>
-      <PhysicsOption>Convex</PhysicsOption>
-      <BlockPairName>BlastDoorTipLongLong</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <DeformationRatio>0.24</DeformationRatio>
-      <BuildTimeSeconds>3</BuildTimeSeconds>
-      <DisassembleRatio>2.5</DisassembleRatio>
-      <EdgeType>Light</EdgeType>
-    </Definition>
-	
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorTipStraightLong</SubtypeId>
-      </Id>
-      <DisplayName>Blast door tip, straight/long</DisplayName>
-      <Icon>Blocks\Icons\TipStraightLong.dds</Icon>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Blocks\Large\Tip\Straight_Long.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <Components>
-        <Component Subtype="SteelPlate" Count="125" />
-        <Component Subtype="SteelPlate" Count="25" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Back"   StartX="0.1" StartY="0.0" EndX="0.9" EndY="0.7" />
-        <MountPoint Side="Back"   StartX="0.3" StartY="0.7" EndX="0.7" EndY="1.0" />
-        <MountPoint Side="Bottom" StartX="0.3" StartY="0.0" EndX="0.7" EndY="0.3" />
-        <MountPoint Side="Bottom" StartX="0.1" StartY="0.3" EndX="0.9" EndY="1.0" />
-      </MountPoints>
-      <PhysicsOption>Convex</PhysicsOption>
-      <BlockPairName>BlastDoorTipStraightLong</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <DeformationRatio>0.2</DeformationRatio>
-      <EdgeType>Heavy</EdgeType>
-      <BuildTimeSeconds>24</BuildTimeSeconds>
-      <DisassembleRatio>3</DisassembleRatio>
-      <Public>true</Public>
-    </Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorTipStraightLong</SubtypeId>
+			</Id>
+			<DisplayName>Blast door tip, straight/long</DisplayName>
+			<Icon>Textures\Icons\TipStraightLong.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Blocks\Large\Tip\Straight_Long.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.1" StartY="0.0" EndX="0.9" EndY="0.7" />
+				<MountPoint Side="Back" StartX="0.3" StartY="0.7" EndX="0.7" EndY="1.0" />
+				<MountPoint Side="Bottom" StartX="0.3" StartY="0.0" EndX="0.7" EndY="0.3" />
+				<MountPoint Side="Bottom" StartX="0.1" StartY="0.3" EndX="0.9" EndY="1.0" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorTipStraightLong</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.2</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<Public>true</Public>
+		</Definition>
 
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorTipStraightLong</SubtypeId>
-      </Id>
-      <DisplayName>Blast door tip, straight/long</DisplayName>
-      <Icon>Blocks\Icons\TipStraightLong.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Blocks\Small\Tip\Straight_Long.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <Components>
-        <Component Subtype="SteelPlate" Count="4" />
-        <Component Subtype="SteelPlate" Count="2" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Back"   StartX="0.1" StartY="0.0" EndX="0.9" EndY="0.7" />
-        <MountPoint Side="Back"   StartX="0.3" StartY="0.7" EndX="0.7" EndY="1.0" />
-        <MountPoint Side="Bottom" StartX="0.3" StartY="0.0" EndX="0.7" EndY="0.3" />
-        <MountPoint Side="Bottom" StartX="0.1" StartY="0.3" EndX="0.9" EndY="1.0" />
-      </MountPoints>
-      <PhysicsOption>Convex</PhysicsOption>
-      <BlockPairName>BlastDoorTipStraightLong</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <DeformationRatio>0.24</DeformationRatio>
-      <BuildTimeSeconds>3</BuildTimeSeconds>
-      <DisassembleRatio>2.5</DisassembleRatio>
-      <EdgeType>Light</EdgeType>
-    </Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorTipStraightLong</SubtypeId>
+			</Id>
+			<DisplayName>Blast door tip, straight/long</DisplayName>
+			<Icon>Textures\Icons\TipStraightLong.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Blocks\Small\Tip\Straight_Long.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.1" StartY="0.0" EndX="0.9" EndY="0.7" />
+				<MountPoint Side="Back" StartX="0.3" StartY="0.7" EndX="0.7" EndY="1.0" />
+				<MountPoint Side="Bottom" StartX="0.3" StartY="0.0" EndX="0.7" EndY="0.3" />
+				<MountPoint Side="Bottom" StartX="0.1" StartY="0.3" EndX="0.9" EndY="1.0" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorTipStraightLong</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.24</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
 
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeBlastDoorTipStraightShort</SubtypeId>
-      </Id>
-      <DisplayName>Blast door tip, straight/short</DisplayName>
-      <Icon>Blocks\Icons\TipStraightShort.dds</Icon>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Blocks\Large\Tip\Straight_Short.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <Components>
-        <Component Subtype="SteelPlate" Count="125" />
-        <Component Subtype="SteelPlate" Count="25" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Back"   StartX="0.1" StartY="0.0" EndX="0.9" EndY="0.7" />
-        <MountPoint Side="Back"   StartX="0.3" StartY="0.7" EndX="0.7" EndY="1.0" />
-        <MountPoint Side="Bottom" StartX="0.3" StartY="0.0" EndX="0.7" EndY="0.3" />
-        <MountPoint Side="Bottom" StartX="0.1" StartY="0.3" EndX="0.9" EndY="1.0" />
-      </MountPoints>
-      <PhysicsOption>Convex</PhysicsOption>
-      <BlockPairName>BlastDoorTipStraightShort</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <DeformationRatio>0.2</DeformationRatio>
-      <EdgeType>Heavy</EdgeType>
-      <BuildTimeSeconds>24</BuildTimeSeconds>
-      <DisassembleRatio>3</DisassembleRatio>
-      <Public>true</Public>
-    </Definition>
-	
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallBlastDoorTipStraightShort</SubtypeId>
-      </Id>
-      <DisplayName>Blast door tip, straight/short</DisplayName>
-      <Icon>Blocks\Icons\TipStraightShort.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Blocks\Small\Tip\Straight_Short.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <Components>
-        <Component Subtype="SteelPlate" Count="4" />
-        <Component Subtype="SteelPlate" Count="2" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Back"   StartX="0.1" StartY="0.0" EndX="0.9" EndY="0.7" />
-        <MountPoint Side="Back"   StartX="0.3" StartY="0.7" EndX="0.7" EndY="1.0" />
-        <MountPoint Side="Bottom" StartX="0.3" StartY="0.0" EndX="0.7" EndY="0.3" />
-        <MountPoint Side="Bottom" StartX="0.1" StartY="0.3" EndX="0.9" EndY="1.0" />
-      </MountPoints>
-      <PhysicsOption>Convex</PhysicsOption>
-      <BlockPairName>BlastDoorTipStraightShort</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <DeformationRatio>0.24</DeformationRatio>
-      <BuildTimeSeconds>3</BuildTimeSeconds>
-      <DisassembleRatio>2.5</DisassembleRatio>
-      <EdgeType>Light</EdgeType>
-    </Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorTipStraightShort</SubtypeId>
+			</Id>
+			<DisplayName>Blast door tip, straight/short</DisplayName>
+			<Icon>Textures\Icons\TipStraightShort.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Blocks\Large\Tip\Straight_Short.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.1" StartY="0.0" EndX="0.9" EndY="0.7" />
+				<MountPoint Side="Back" StartX="0.3" StartY="0.7" EndX="0.7" EndY="1.0" />
+				<MountPoint Side="Bottom" StartX="0.3" StartY="0.0" EndX="0.7" EndY="0.3" />
+				<MountPoint Side="Bottom" StartX="0.1" StartY="0.3" EndX="0.9" EndY="1.0" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorTipStraightShort</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.2</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<Public>true</Public>
+		</Definition>
 
-</CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorTipStraightShort</SubtypeId>
+			</Id>
+			<DisplayName>Blast door tip, straight/short</DisplayName>
+			<Icon>Textures\Icons\TipStraightShort.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Blocks\Small\Tip\Straight_Short.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.1" StartY="0.0" EndX="0.9" EndY="0.7" />
+				<MountPoint Side="Back" StartX="0.3" StartY="0.7" EndX="0.7" EndY="1.0" />
+				<MountPoint Side="Bottom" StartX="0.3" StartY="0.0" EndX="0.7" EndY="0.3" />
+				<MountPoint Side="Bottom" StartX="0.1" StartY="0.3" EndX="0.9" EndY="1.0" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorTipStraightShort</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.24</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
+
+	</CubeBlocks>
 </Definitions>
