@@ -26,8 +26,8 @@
 				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
 				<MountPoint Side="Front" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
 				<MountPoint Side="Front" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
-				<MountPoint Side="Right" StartX="0.50" StartY="0.60" EndX="1.50" EndY="1.40" />
-				<MountPoint Side="Left" StartX="0.50" StartY="0.10" EndX="1.50" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="1.00" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingRightInner</BlockPairName>
@@ -64,8 +64,8 @@
 				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
 				<MountPoint Side="Front" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
 				<MountPoint Side="Front" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
-				<MountPoint Side="Right" StartX="0.50" StartY="0.60" EndX="1.50" EndY="1.40" />
-				<MountPoint Side="Left" StartX="0.50" StartY="0.10" EndX="1.50" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="1.00" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingRightInner</BlockPairName>
@@ -99,10 +99,10 @@
 				<MountPoint Side="Back" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
 				<MountPoint Side="Back" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
-				<MountPoint Side="Left" StartX="0.50" StartY="0.30" EndX="0.80" EndY="0.70" />
-				<MountPoint Side="Right" StartX="0.50" StartY="0.60" EndX="1.20" EndY="1.40" />
-				<MountPoint Side="Left" StartX="0.80" StartY="0.10" EndX="1.50" EndY="0.90" />
-				<MountPoint Side="Right" StartX="1.20" StartY="0.80" EndX="1.50" EndY="1.20" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.30" EndX="0.30" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="0.70" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.80" EndX="1.00" EndY="1.20" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingRight0</BlockPairName>
@@ -136,10 +136,10 @@
 				<MountPoint Side="Back" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
 				<MountPoint Side="Back" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
-				<MountPoint Side="Left" StartX="0.50" StartY="0.30" EndX="0.80" EndY="0.70" />
-				<MountPoint Side="Right" StartX="0.50" StartY="0.60" EndX="1.20" EndY="1.40" />
-				<MountPoint Side="Left" StartX="0.80" StartY="0.10" EndX="1.50" EndY="0.90" />
-				<MountPoint Side="Right" StartX="1.20" StartY="0.80" EndX="1.50" EndY="1.20" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.30" EndX="0.30" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="0.70" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.80" EndX="1.00" EndY="1.20" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingRight0</BlockPairName>
@@ -247,10 +247,10 @@
 				<MountPoint Side="Back" StartX="0.70" StartY="1.10" EndX="1.00" EndY="1.80" />
 				<MountPoint Side="Back" StartX="0.00" StartY="0.70" EndX="0.30" EndY="1.40" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
-				<MountPoint Side="Left" StartX="1.00" StartY="0.80" EndX="1.30" EndY="1.20" />
-				<MountPoint Side="Right" StartX="0.50" StartY="1.10" EndX="1.20" EndY="1.90" />
-				<MountPoint Side="Left" StartX="1.30" StartY="0.60" EndX="1.50" EndY="1.40" />
-				<MountPoint Side="Right" StartX="1.20" StartY="1.30" EndX="1.50" EndY="1.70" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.80" EndX="0.80" EndY="1.20" />
+				<MountPoint Side="Right" StartX="0.00" StartY="1.10" EndX="0.70" EndY="1.90" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.60" EndX="1.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.70" StartY="1.30" EndX="1.00" EndY="1.70" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingRight26b</BlockPairName>
@@ -284,10 +284,10 @@
 				<MountPoint Side="Back" StartX="0.70" StartY="1.10" EndX="1.00" EndY="1.80" />
 				<MountPoint Side="Back" StartX="0.00" StartY="0.70" EndX="0.30" EndY="1.40" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
-				<MountPoint Side="Left" StartX="1.00" StartY="0.80" EndX="1.30" EndY="1.20" />
-				<MountPoint Side="Right" StartX="0.50" StartY="1.10" EndX="1.20" EndY="1.90" />
-				<MountPoint Side="Left" StartX="1.30" StartY="0.60" EndX="1.50" EndY="1.40" />
-				<MountPoint Side="Right" StartX="1.20" StartY="1.30" EndX="1.50" EndY="1.70" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.80" EndX="0.80" EndY="1.20" />
+				<MountPoint Side="Right" StartX="0.00" StartY="1.10" EndX="0.70" EndY="1.90" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.60" EndX="1.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.70" StartY="1.30" EndX="1.00" EndY="1.70" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingRight26b</BlockPairName>
@@ -469,10 +469,10 @@
 				<MountPoint Side="Back" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
 				<MountPoint Side="Back" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
-				<MountPoint Side="Left" StartX="1.50" StartY="0.30" EndX="1.80" EndY="0.70" />
-				<MountPoint Side="Right" StartX="-0.50" StartY="0.60" EndX="2.20" EndY="1.40" />
-				<MountPoint Side="Left" StartX="1.80" StartY="0.10" EndX="2.50" EndY="0.90" />
-				<MountPoint Side="Right" StartX="2.20" StartY="0.80" EndX="2.50" EndY="1.20" />
+				<MountPoint Side="Left" StartX="2.00" StartY="0.30" EndX="2.30" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="2.70" EndY="1.40" />
+				<MountPoint Side="Left" StartX="2.30" StartY="0.10" EndX="3.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="2.70" StartY="0.80" EndX="3.00" EndY="1.20" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingRight64a</BlockPairName>
@@ -506,10 +506,10 @@
 				<MountPoint Side="Back" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
 				<MountPoint Side="Back" StartX="0.00" StartY="0.20" EndX="0.30" EndY="0.90" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
-				<MountPoint Side="Left" StartX="1.50" StartY="0.30" EndX="1.80" EndY="0.70" />
-				<MountPoint Side="Right" StartX="-0.50" StartY="0.60" EndX="2.20" EndY="1.40" />
-				<MountPoint Side="Left" StartX="1.80" StartY="0.10" EndX="2.50" EndY="0.90" />
-				<MountPoint Side="Right" StartX="2.20" StartY="0.80" EndX="2.50" EndY="1.20" />
+				<MountPoint Side="Left" StartX="2.00" StartY="0.30" EndX="2.30" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="2.70" EndY="1.40" />
+				<MountPoint Side="Left" StartX="2.30" StartY="0.10" EndX="3.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="2.70" StartY="0.80" EndX="3.00" EndY="1.20" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingRight64a</BlockPairName>
@@ -543,10 +543,10 @@
 				<MountPoint Side="Back" StartX="0.70" StartY="1.10" EndX="1.00" EndY="1.80" />
 				<MountPoint Side="Back" StartX="0.00" StartY="0.70" EndX="0.30" EndY="1.40" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
-				<MountPoint Side="Left" StartX="1.50" StartY="0.80" EndX="1.80" EndY="1.20" />
-				<MountPoint Side="Right" StartX="-0.50" StartY="1.10" EndX="2.20" EndY="1.90" />
-				<MountPoint Side="Left" StartX="1.80" StartY="0.60" EndX="2.50" EndY="1.40" />
-				<MountPoint Side="Right" StartX="2.20" StartY="1.30" EndX="2.50" EndY="1.70" />
+				<MountPoint Side="Left" StartX="2.00" StartY="0.80" EndX="2.30" EndY="1.20" />
+				<MountPoint Side="Right" StartX="0.00" StartY="1.10" EndX="2.70" EndY="1.90" />
+				<MountPoint Side="Left" StartX="2.30" StartY="0.60" EndX="3.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="2.70" StartY="1.30" EndX="3.00" EndY="1.70" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingRight64b</BlockPairName>
@@ -580,10 +580,10 @@
 				<MountPoint Side="Back" StartX="0.70" StartY="1.10" EndX="1.00" EndY="1.80" />
 				<MountPoint Side="Back" StartX="0.00" StartY="0.70" EndX="0.30" EndY="1.40" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
-				<MountPoint Side="Left" StartX="1.50" StartY="0.80" EndX="1.80" EndY="1.20" />
-				<MountPoint Side="Right" StartX="-0.50" StartY="1.10" EndX="2.20" EndY="1.90" />
-				<MountPoint Side="Left" StartX="1.80" StartY="0.60" EndX="2.50" EndY="1.40" />
-				<MountPoint Side="Right" StartX="2.20" StartY="1.30" EndX="2.50" EndY="1.70" />
+				<MountPoint Side="Left" StartX="2.00" StartY="0.80" EndX="2.30" EndY="1.20" />
+				<MountPoint Side="Right" StartX="0.00" StartY="1.10" EndX="2.70" EndY="1.90" />
+				<MountPoint Side="Left" StartX="2.30" StartY="0.60" EndX="3.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="2.70" StartY="1.30" EndX="3.00" EndY="1.70" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingRight64b</BlockPairName>
@@ -620,8 +620,8 @@
 				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
 				<MountPoint Side="Front" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
 				<MountPoint Side="Front" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
-				<MountPoint Side="Left" StartX="0.50" StartY="0.60" EndX="1.50" EndY="1.40" />
-				<MountPoint Side="Right" StartX="0.50" StartY="0.10" EndX="1.50" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.60" EndX="1.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingLeftInner</BlockPairName>
@@ -658,8 +658,8 @@
 				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
 				<MountPoint Side="Front" StartX="0.70" StartY="0.60" EndX="1.00" EndY="1.30" />
 				<MountPoint Side="Front" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
-				<MountPoint Side="Left" StartX="0.50" StartY="0.60" EndX="1.50" EndY="1.40" />
-				<MountPoint Side="Right" StartX="0.50" StartY="0.10" EndX="1.50" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.60" EndX="1.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingLeftInner</BlockPairName>
@@ -693,10 +693,10 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
 				<MountPoint Side="Back" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
-				<MountPoint Side="Right" StartX="1.20" StartY="0.30" EndX="1.50" EndY="0.70" />
-				<MountPoint Side="Left" StartX="0.80" StartY="0.60" EndX="1.50" EndY="1.40" />
-				<MountPoint Side="Right" StartX="0.50" StartY="0.10" EndX="1.20" EndY="0.90" />
-				<MountPoint Side="Left" StartX="0.50" StartY="0.80" EndX="0.80" EndY="1.20" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.30" EndX="1.00" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.60" EndX="1.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.80" EndX="0.30" EndY="1.20" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingLeft0</BlockPairName>
@@ -730,10 +730,10 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
 				<MountPoint Side="Back" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
-				<MountPoint Side="Right" StartX="1.20" StartY="0.30" EndX="1.50" EndY="0.70" />
-				<MountPoint Side="Left" StartX="0.80" StartY="0.60" EndX="1.50" EndY="1.40" />
-				<MountPoint Side="Right" StartX="0.50" StartY="0.10" EndX="1.20" EndY="0.90" />
-				<MountPoint Side="Left" StartX="0.50" StartY="0.80" EndX="0.80" EndY="1.20" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.30" EndX="1.00" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.60" EndX="1.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.80" EndX="0.30" EndY="1.20" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingLeft0</BlockPairName>
@@ -841,10 +841,10 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="1.10" EndX="0.30" EndY="1.80" />
 				<MountPoint Side="Back" StartX="0.70" StartY="0.70" EndX="1.00" EndY="1.40" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
-				<MountPoint Side="Right" StartX="0.70" StartY="0.80" EndX="1.00" EndY="1.20" />
-				<MountPoint Side="Left" StartX="0.80" StartY="1.10" EndX="1.50" EndY="1.90" />
-				<MountPoint Side="Right" StartX="0.50" StartY="0.60" EndX="0.70" EndY="1.40" />
-				<MountPoint Side="Left" StartX="0.50" StartY="1.30" EndX="0.80" EndY="1.70" />
+				<MountPoint Side="Right" StartX="0.20" StartY="0.80" EndX="0.50" EndY="1.20" />
+				<MountPoint Side="Left" StartX="0.30" StartY="1.10" EndX="1.00" EndY="1.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="0.20" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.00" StartY="1.30" EndX="0.30" EndY="1.70" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingLeft26b</BlockPairName>
@@ -878,10 +878,10 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="1.10" EndX="0.30" EndY="1.80" />
 				<MountPoint Side="Back" StartX="0.70" StartY="0.70" EndX="1.00" EndY="1.40" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
-				<MountPoint Side="Right" StartX="0.70" StartY="0.80" EndX="1.00" EndY="1.20" />
-				<MountPoint Side="Left" StartX="0.80" StartY="1.10" EndX="1.50" EndY="1.90" />
-				<MountPoint Side="Right" StartX="0.50" StartY="0.60" EndX="0.70" EndY="1.40" />
-				<MountPoint Side="Left" StartX="0.50" StartY="1.30" EndX="0.80" EndY="1.70" />
+				<MountPoint Side="Right" StartX="0.20" StartY="0.80" EndX="0.50" EndY="1.20" />
+				<MountPoint Side="Left" StartX="0.30" StartY="1.10" EndX="1.00" EndY="1.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="0.20" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.00" StartY="1.30" EndX="0.30" EndY="1.70" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingLeft26b</BlockPairName>
@@ -1063,10 +1063,10 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
 				<MountPoint Side="Back" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
-				<MountPoint Side="Right" StartX="0.20" StartY="0.30" EndX="0.50" EndY="0.70" />
-				<MountPoint Side="Left" StartX="-0.20" StartY="0.60" EndX="2.50" EndY="1.40" />
-				<MountPoint Side="Right" StartX="-0.50" StartY="0.10" EndX="0.20" EndY="0.90" />
-				<MountPoint Side="Left" StartX="-0.50" StartY="0.80" EndX="-0.20" EndY="1.20" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.30" EndX="1.00" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.60" EndX="3.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.80" EndX="0.30" EndY="1.20" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingLeft64a</BlockPairName>
@@ -1100,10 +1100,10 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.60" EndX="0.30" EndY="1.30" />
 				<MountPoint Side="Back" StartX="0.70" StartY="0.20" EndX="1.00" EndY="0.90" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.40" EndX="0.70" EndY="1.10" />
-				<MountPoint Side="Right" StartX="0.20" StartY="0.30" EndX="0.50" EndY="0.70" />
-				<MountPoint Side="Left" StartX="-0.20" StartY="0.60" EndX="2.50" EndY="1.40" />
-				<MountPoint Side="Right" StartX="-0.50" StartY="0.10" EndX="0.20" EndY="0.90" />
-				<MountPoint Side="Left" StartX="-0.50" StartY="0.80" EndX="-0.20" EndY="1.20" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.30" EndX="1.00" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.60" EndX="3.00" EndY="1.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.80" EndX="0.30" EndY="1.20" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingLeft64a</BlockPairName>
@@ -1137,10 +1137,10 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="1.10" EndX="0.30" EndY="1.80" />
 				<MountPoint Side="Back" StartX="0.70" StartY="0.70" EndX="1.00" EndY="1.40" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
-				<MountPoint Side="Right" StartX="0.20" StartY="0.80" EndX="0.50" EndY="1.20" />
-				<MountPoint Side="Left" StartX="-0.20" StartY="1.10" EndX="2.50" EndY="1.90" />
-				<MountPoint Side="Right" StartX="-0.50" StartY="0.60" EndX="0.20" EndY="1.40" />
-				<MountPoint Side="Left" StartX="-0.50" StartY="1.30" EndX="-0.20" EndY="1.70" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.80" EndX="1.00" EndY="1.20" />
+				<MountPoint Side="Left" StartX="0.30" StartY="1.10" EndX="3.00" EndY="1.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="0.70" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.00" StartY="1.30" EndX="0.30" EndY="1.70" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingLeft64b</BlockPairName>
@@ -1174,10 +1174,10 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="1.10" EndX="0.30" EndY="1.80" />
 				<MountPoint Side="Back" StartX="0.70" StartY="0.70" EndX="1.00" EndY="1.40" />
 				<MountPoint Side="Back" StartX="0.30" StartY="0.90" EndX="0.70" EndY="1.60" />
-				<MountPoint Side="Right" StartX="0.20" StartY="0.80" EndX="0.50" EndY="1.20" />
-				<MountPoint Side="Left" StartX="-0.20" StartY="1.10" EndX="2.50" EndY="1.90" />
-				<MountPoint Side="Right" StartX="-0.50" StartY="0.60" EndX="0.20" EndY="1.40" />
-				<MountPoint Side="Left" StartX="-0.50" StartY="1.30" EndX="-0.20" EndY="1.70" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.80" EndX="1.00" EndY="1.20" />
+				<MountPoint Side="Left" StartX="0.30" StartY="1.10" EndX="3.00" EndY="1.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="0.70" EndY="1.40" />
+				<MountPoint Side="Left" StartX="0.00" StartY="1.30" EndX="0.30" EndY="1.70" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorWingLeft64b</BlockPairName>
