@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions>
+	<CubeBlocks>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorTipLongLong</SubtypeId>
+			</Id>
+			<DisplayName>Blast door tip, long/long</DisplayName>
+			<Icon>Textures\Icons\BlastDoorTipLongLong.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="3" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorTipLongLong.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.10" StartY="0.70" EndX="0.90" EndY="1.70" />
+				<MountPoint Side="Back" StartX="0.30" StartY="1.70" EndX="0.70" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.00" EndX="0.70" EndY="0.30" />
+				<MountPoint Side="Back" StartX="0.20" StartY="0.30" EndX="0.80" EndY="0.70" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorTipLongLong</BlockPairName>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.2</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<Public>true</Public>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorTipLongLong</SubtypeId>
+			</Id>
+			<DisplayName>Blast door tip, long/long</DisplayName>
+			<Icon>Textures\Icons\BlastDoorTipLongLong.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="3" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorTipLongLong.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.10" StartY="0.70" EndX="0.90" EndY="1.70" />
+				<MountPoint Side="Back" StartX="0.30" StartY="1.70" EndX="0.70" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.00" EndX="0.70" EndY="0.30" />
+				<MountPoint Side="Back" StartX="0.20" StartY="0.30" EndX="0.80" EndY="0.70" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorTipLongLong</BlockPairName>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.24</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorTipStraightLong</SubtypeId>
+			</Id>
+			<DisplayName>Blast door tip, straight/long</DisplayName>
+			<Icon>Textures\Icons\BlastDoorTipStraightLong.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorTipStraightLong.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.40" StartY="0.00" EndX="0.60" EndY="1.50" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.70" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.70" EndX="0.70" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.30" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.30" StartY="0.00" EndX="0.70" EndY="0.30" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorTipStraightLong</BlockPairName>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.2</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<Public>true</Public>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorTipStraightLong</SubtypeId>
+			</Id>
+			<DisplayName>Blast door tip, straight/long</DisplayName>
+			<Icon>Textures\Icons\BlastDoorTipStraightLong.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorTipStraightLong.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.40" StartY="0.00" EndX="0.60" EndY="1.50" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.70" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.70" EndX="0.70" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.30" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.30" StartY="0.00" EndX="0.70" EndY="0.30" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorTipStraightLong</BlockPairName>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.24</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorTipStraightShort</SubtypeId>
+			</Id>
+			<DisplayName>Blast door tip, straight/short</DisplayName>
+			<Icon>Textures\Icons\BlastDoorTipStraightShort.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorTipStraightShort.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.40" StartY="0.00" EndX="0.60" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.70" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.70" EndX="0.70" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.30" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.30" StartY="0.00" EndX="0.70" EndY="0.30" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorTipStraightShort</BlockPairName>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.2</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<Public>true</Public>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorTipStraightShort</SubtypeId>
+			</Id>
+			<DisplayName>Blast door tip, straight/short</DisplayName>
+			<Icon>Textures\Icons\BlastDoorTipStraightShort.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorTipStraightShort.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.40" StartY="0.00" EndX="0.60" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.70" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.70" EndX="0.70" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.30" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.30" StartY="0.00" EndX="0.70" EndY="0.30" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorTipStraightShort</BlockPairName>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.24</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
+
+	</CubeBlocks>
+</Definitions>
